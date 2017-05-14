@@ -1,7 +1,9 @@
 ---
 bibliography: CV.bib
 csl: JAE.csl
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 Paul Chafee Cross
@@ -216,15 +218,3 @@ Examiner.com 2010
 
 www.yellowstonewolf.org
 www.gyebrucellosis.net
-
-
-REFERENCES
-
-Dr. Jeffrey Kershner, Center Director, Northern Rocky Mountain Science Center, USGS, 2327 University Way, Suite 2, Bozeman MT 59715.
-Phone: (406) 994-5304	Email: jkershner@usgs.gov
-
-Mr. Brandon Scurlock, Brucellosis-Feedground-Habitat Supervisor, Wyoming Game and Fish Department, Pinedale Office, PO Box 850, Pinedale, WY 82941
-Phone: (307) 367-4347ext224		Email: brandon.scurlock@wgf.state.wy.us
-
-Dr. Doug W. Smith, Yellowstone Center for Resources, Wolf Project, Yellowstone National Park, WY  82190
-Phone: (307) 344-2242	Email: doug_smith@nps.gov
