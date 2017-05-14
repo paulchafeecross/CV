@@ -1,192 +1,224 @@
 ---
+<<<<<<< HEAD
 bibliography: CV.bib
 csl: JAE.csl
 output:
   pdf_document: default
   html_document: default
+=======
+title: "Paul Chafee Cross"
+params:
+   address: U.S. Geological Survey, Northern Rocky Mountain Science Center, 2327 University Way, Suite 2, Bozeman, MT 59715               
+   email: pcross@usgs.gov
+   cellphone: "406-581-1763"
+   website: www.usgs.gov/staff-profiles/paul-cross
+   
+>>>>>>> 0e9a17cb052b8c3e7ab502c406f35bc6eb655d7d
 ---
+<!--html_preserve-->
+<style type="text/css">
+ul.CV {
+list-style-type: none;
+}
+</style>
+<!--/html_preserve-->
 
-Paul Chafee Cross
-================
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+library(RefManageR)
+```
+
+<ul class="CV">
+<li><i class="fa fa-home" aria-hidden="true"></i>  `r paste(" ",params$address)`</li>
+<li><i class="fa fa-envelope-o" aria-hidden="true"></i>  `r paste(" ",params$email)`</li>
+<li><i class="fa fa-mobile" aria-hidden="true"></i>  `r paste(" ",params$telephone)`</li>
+<li><i class="fa fa-globe" aria-hidden="true"></i>  [`r paste(" ",params$website)`](`r params$website`)</li>
+<li><i class="fa fa-clock-o" aria-hidden="true"></i> Last Updated: `r paste(" ",format(Sys.Date(), "%B %d, %Y"))`</li>
+</ul>
+
+# Education
+* 2005 Ph.D. Envi. Sci., Policy & Mang., University of California, Berkeley, CA  
+* 1998 B.A., Environmental Science, University of Virginia, Charlottesville, VA
+
+# Research Experience
+## 2005-present
+  + Wildlife Health Researcher, U.S. Geological Survey
   
-
-|:------|-----:|
-|U.S. Geological Survey  |  Work: 406-994-6908|   
-|Northern Rocky Mountain Science Center     |                         Cell: 406-581-1763|      
-|2327 University Way, Suite 2               |                            pcross@usgs.gov|   
-|Bozeman, MT 59715                          |     http://www.nrmsc.usgs.gov/staff/pcross|  
-
+## 2009-present
+  + Research Fellow, Wildlife Conservation Society
+   
+## 2006-present
+  + Faculty Affiliate, Montana State University
   
+## 1999-2005
+  + Graduate Student Researcher, U.C. Berkeley
+
+# Publications
+```{r echo=FALSE, results="asis", message = FALSE, comment=FALSE}
+file_journals <- ReadBib("Cross_Pubs.bib")
+dates <- unlist(unique(file_journals$year))[order(unlist(unique(file_journals$year)),decreasing = TRUE)]
+
+#Prints references
+for (date in dates) {
+  if(length(file_journals[list(year=date)]) > 0){
+    cat(paste0("##",date),"\n")
+    print(file_journals[list(year=date)],
+          .opts = list(style="markdown", 
+                       bib.style ="authoryear",
+                       max.names =10, dashed=FALSE))
+    cat("\n")
+  }
+}
+```
+# Grey Literature
+
+Ebinger, MR & PC Cross. 2008. Surveillance for brucellosis in Yellowstone bison: The power of various strategies to detect vaccination effects. National Park Service, Mammoth, WY, YCR-2008-04. 69 pages.  
   
-**Education**  
+Conner, MM, JE Gross, PC Cross, MD. Samuel, DT McKinnon, MM Miller, & MR Ebinger. 2007. Scale-dependent approaches to modeling spatial epidemiology of chronic wasting disease. E-book publication. Utah Division of Wildlife Resources. http://wildlife.utah.gov/diseases/cwd/e-book/  
+  
+Cross, PC, S Creel, WH Edwards, V Ezenwa, E Maichak, B Scurlock, J. Rogerson. 2006. Ecology and epidemiology of elk brucellosis. In 2005 Greater Yellowstone Interagency Brucellosis Committee Annual Report. Pg 14-15. http://gyibc.com  
 
-|  |  |  
-|:------|:-----|
-|2005 |  **Ph.D. Envi. Sci., Policy & Mang.**, *University of California*, Berkeley, CA|
-|1998| **B.A., Environmental Science**, *University of Virginia*, Charlottesville, VA|
+# Databases
 
-RESEARCH EXPERIENCE
+Cross, P.C. D. M. Heisey, J. A. Bowers, C. T. Hay, J. Wolhuter, P. Buss, M. Hofmeyr, A. Michel, R. Bengis, T. Bird, I. J. Whyte, J. T. Du Toit, and W. M. Getz. 2009. Buffalo herd tracking with VHF and GPS data. Movebank.org.  
 
-WILDLIFE HEALTH RESEARCHER, USGS - BOZEMAN, MT				   2005-present
-RESEARCH FELLOW, WILDLIFE CONSERVATION SOCIETY				   2009-present
-FACULTY AFFILIATE, MONTANA STATE UNIVERSITY				  2006-present
-RESEARCH FELLOW, MAMMAL RESEARCH INSTITUTE, UNIV. OF PRETORIA		      2007-2010
-GRADUATE STUDENT RESEARCHER, UC BERKELEY					      1999-2005
-RESEARCH ASSISTANT, UNIV. OF BOTSWANA					 Summer 1998
-FIELD ASSISTANT, SMITHSONIAN INSTITUTE						 Summer 1997
+Cross PC, Heisey DM, Bowers JA, Hay CT, Wolhuter J, Buss P, Hofmeyr M, Michel AL, Bengis RG, Bird TLF, Du Toit JT, Getz WM (2008) Data from: Disease, predation and demography: assessing the impacts of bovine tuberculosis on African buffalo by monitoring at individual and population levels. Dryad Digital Repository. doi:10.5061/dryad.5hh3h  
 
-**PUBLICATIONS**
+Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-dependent survival, fecundity, and predicted population-level consequences of brucellosis in African buffalo. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.p6678  
 
-Grey Literature
-Ebinger, MR & PC Cross. 2008. Surveillance for brucellosis in Yellowstone bison: The 
-power of various strategies to detect vaccination effects. National Park Service, Mammoth, WY, YCR-2008-04. 69 pages.
-Conner, MM, JE Gross, PC Cross, MD. Samuel, DT McKinnon, MM Miller, & MR Ebinger. 2007. Scale-dependent approaches to modeling spatial epidemiology of chronic wasting disease. E-book publication. Utah Division of Wildlife Resources. http://wildlife.utah.gov/diseases/cwd/e-book/
-Cross, PC, S Creel, WH Edwards, V Ezenwa, E Maichak, B Scurlock, J. Rogerson. 2006. Ecology and epidemiology of elk brucellosis. In 2005 Greater Yellowstone Interagency Brucellosis Committee Annual Report. Pg 14-15. http://gyibc.com
+# Students
++ Angela Brennan. 2014. Broad-scale determinants of elk aggregation and brucellosis seroprevalence. Montana State University. Co-supervisor: Scott Creel.  
++ Tyler Creech. 2011. Heterogeneity in the fine-scale contact patterns of elk as determined by proximity collars. Montana State University. Co-supervisor: Scott Creel  
++ Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The Effects of Supplemental Feeding on Stress Hormone Levels in Elk. Montana State University. Co-supervisors: Mark Taper, Scott Creel  
++ Craig Hay. 2006 Choice of Social environment of male buffalo (Syncerus caffer) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: Paul Funston  
++ Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buffalo (Syncerus caffer) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa.   Co-supervisor: Elissa Cameron  
 
-PUBLISHED DATABASES
-Cross, P.C. D. M. Heisey, J. A. Bowers, C. T. Hay, J. Wolhuter, P. Buss, M. Hofmeyr, A. 
-Michel, R. Bengis, T. Bird, I. J. Whyte, J. T. Du Toit, and W. M. Getz. 2009. Buffalo herd tracking with VHF and GPS data. Movebank.org. 
+## Field Supervisor
++ Almberg, ES. Current PhD. Penn State University. Supervisor: Peter Hudson   
++ Manlove, K. Current PhD. Penn State University. Supervisor: Peter Hudson  
++ Bowers, JA. 2006. Master's thesis: Feeding patch selection of African Buffalo (Syncerus caffer caffer) in the central region of the Kruger National Park.Tshwane University of Technology. South Africa  
++ Tania Bird. 2004. Master's thesis: Influence of bovine tuberculosis (Mycobacterium bovis) on condition and reproductive success of females African buffalo (Syncerus caffer) in Kruger National Park. University of Pretoria. South Africa  
++ Shane Abeare. 2004. Master's thesis: Dry season habitat and patch selection by African buffalo herds: test of a new home range estimator. University of Pretoria. South Africa   
+Valerio Macandza 2002. Master's thesis: Forage selection by African buffalo in the late dry season in two landscapes. Witwatersrand University. South Africa  
++ Alex Caron. 2001. Master's thesis: Ecological implications of bovine tuberculosis in African Buffalo. University of Pretoria. South Africa  
 
-Cross PC, Heisey DM, Bowers JA, Hay CT, Wolhuter J, Buss P, Hofmeyr M, Michel AL, 
-Bengis RG, Bird TLF, Du Toit JT, Getz WM (2008) Data from: Disease, predation and demography: assessing the impacts of bovine tuberculosis on African buffalo by monitoring at individual and population levels. Dryad Digital Repository. doi:10.5061/dryad.5hh3h
+# Teaching 
++ Data Analysis and Multi-level / Hierarchical Modeling in Ecology (1 credit) Fall 2009. MSU.  
++ Modeling Infectious Disease (3 day workshop) 2009. Univ. of Montana.  
++ EcoLunch Seminar (1 credit) Fall 2008. MSU.
++ Plant-Disease Invasion Seminar (informal graduate seminar). Fall 2006. MSU. 
++ Wildlife Ecology (4 credits with lab) Spring 2005. Co-Lecturer UC Berkeley.  
++ Disease Ecology (1 credit) 2004. Co-supervised graduate seminar on disease ecology, UC Berkeley  
++ Modeling Infectious Disease (1 week short-course) 2001. Univ. of Witwatersrand, South Africa  
 
-Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-dependent 
-survival, fecundity, and predicted population-level consequences of brucellosis in African buffalo. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.p6678
+## Invited Classes 
++ Diseases of the GYE. 1 lectures per year for an introductory class on the GYE. MSU.  
++ Disease Ecology. 2 lectures per year for upper-level ecology students. MSU  
++ Philosophy of Science. 2007. 2 classes. MSU.  
 
-STUDENTS
-Angela Brennan. 2014. Broad-scale determinants of elk aggregation and brucellosis seroprevalence. Montana State University. Co-supervisor: Scott Creel. 
-Tyler Creech. 2011. Heterogeneity in the fine-scale contact patterns of elk as determined by proximity collars. Montana State University. Co-supervisor: Scott Creel
-Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The Effects of Supplemental Feeding on Stress Hormone Levels in Elk. Montana State University. Co-supervisors: Mark Taper, Scott Creel 
-Craig Hay. 2006 Choice of Social environment of male buffalo (Syncerus caffer) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: Paul Funston
-Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buffalo (Syncerus caffer) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa. Co-supervisor: Elissa Cameron
+# Grants/Awards 
 
-Field Supervisor
-Almberg, ES. Current PhD. Penn State University. Supervisor: Peter Hudson
-Manlove, K. Current PhD. Penn State University. Supervisor: Peter Hudson
-Bowers, JA. 2006. Master's thesis: Feeding patch selection of African Buffalo (Syncerus caffer caffer) in the central region of the Kruger National Park.Tshwane University of Technology. South Africa
-Tania Bird. 2004. Master's thesis: Influence of bovine tuberculosis (Mycobacterium bovis) on condition and reproductive success of females African buffalo (Syncerus caffer) in Kruger National Park. University of Pretoria. South Africa
-Shane Abeare. 2004. Master's thesis: Dry season habitat and patch selection by African buffalo herds: test of a new home range estimator. University of Pretoria. South Africa 
-Valerio Macandza 2002. Master's thesis: Forage selection by African buffalo in the late dry season in two landscapes. Witwatersrand University. South Africa
-Alex Caron. 2001. Master's thesis: Ecological implications of bovine tuberculosis in African Buffalo. University of Pretoria. South Africa
-
-TEACHING 
-
-Courses Taught
-Data Analysis and Multi-level / Hierarchical Modeling in Ecology (1 credit) Fall 2009. MSU.
-Modeling Infectious Disease (3 day workshop) 2009. Univ. of Montana. 
-EcoLunch Seminar (1 credit) Fall 2008. MSU. I initiated this class to provide a venue for 
-graduate students to get practice giving seminars and provide feedback on ongoing projects. 
-Plant-Disease Invasion Seminar (informal graduate seminar). Fall 2006. MSU. Compared the approaches of plant and disease ecologists to non-native invasions. 
-Wildlife Ecology (4 credits with lab) Spring 2005. Co-Lecturer UC Berkeley. 
-Disease Ecology (1 credit) 2004. Co-supervised graduate seminar on disease ecology, UC Berkeley 
-Modeling Infectious Disease (1 week short-course) 2001. Univ. of Witwatersrand, South Africa
-
-Invited Classes 
-Diseases of the GYE. 1 lectures per year for an introductory class on the GYE. MSU.
-Disease Ecology. 2 lectures per year for upper-level ecology students. MSU
-Philosophy of Science. 2007. 2 classes. MSU.
-
-Teaching Assistant
-Natural Resource Modeling (3 credits) 2003. UC Berkeley
-
-GRANTS & AWARDS
-
-2014	USGS Performance Award
-2013	USGS Performance Award
-National Institute for Mathematical and Biological Synthesis (NIMBioS) 
-Workshop (Co-PI) ~$60,000
-NSF Dissertation Improvement Grant (Co-PI) $19,343
-	USGS, PI $ 98,000 Greater Yellowstone ecosystem disease research
-2012	USGS Powell Center Grant, Co-PI (declined)
-	USGS Performance Award
-USGS, PI $75,000, Disease effects on Yellowstone Wolves. 
-USFWS, PI$45,000, Elk space-use of the National Elk Refuge. 
-	Morris Animal Foundation, Co-PI $ 75,000, Developing an evidence base for managing bighorn sheep pneumonia. 
-2011 	USGS Best Paper in Biology
-	USGS Grade Promotion
-2010 	NSF-NIH Ecology of Infectious Disease Program, co-PI $1,971,033, Effects of land-use, 
-predation and management on wildlife contact and Brucella transmission in the Yellowstone Ecosystem
-USGS, PI $75,000, Park Oriented Biological Support Grant: Effects of Sarcoptic Mange on Gray Wolves in Yellowstone National Park
-USGS Star Award for Performance
-2009 	USGS, PI $39,000, Modeling environmental transmission of Chronic Wasting Disease
-	USGS Star Award for Performance
-2008 	USGS, Co-PI $320,000, Global Climate Change Initiative 
-	Co-PI $112,180, Wyoming Livestock-Wildlife Disease Initiative
-	Co-PI $281,000, Wyoming Game and Fish Department: Tracking elk movements around 
-the supplemental feedgrounds.
-2007 	USGS, Co-PI $750,000 with Mary Poss (Penn State): Viral tracking of mule deer and elk.
-NPS, PI $10,000: Brucellosis in Yellowstone National Park
-	USGS Star Award
-2006	USGS, PI $210,000 for chronic wasting disease research.
-2004, 2005 Graduate Assembly Travel Grant
-2002-2004 Student Travel Grant
-1999 	NSF-NIH Ecology of Infectious Disease Grant. $1.8 million. Initiated, co-authored, and 
-developed the research program with Dr. Wayne Getz.  
-
+##2014
+  + USGS Performance Award
+  
+## 2013	 
+  + USGS Performance Award  
+  + National Institute for Mathematical and Biological Synthesis (NIMBioS) Workshop (Co-PI) ~$60,000  
+  + NSF Dissertation Improvement Grant (Co-PI) $19,343  
+  + USGS, PI $ 98,000 Greater Yellowstone ecosystem disease research
+  
+## 2012  
+  + USGS Powell Center Grant, Co-PI (declined)  
+  + USGS Performance Award  
+  + USGS, PI $75,000, Disease effects on Yellowstone Wolves.  
+  + USFWS, PI$45,000, Elk space-use of the National Elk Refuge.  
+  + Morris Animal Foundation, Co-PI $ 75,000, Developing an evidence base for managing bighorn sheep pneumonia.  
+  
+## 2011  
+  + USGS Best Paper in Biology  
+  + USGS Grade Promotion  
+  
+## 2010  
+  + NSF-NIH Ecology of Infectious Disease Program, co-PI $1,971,033, Effects of land-use, predation and management on wildlife contact and Brucella transmission in the Yellowstone Ecosystem  
+  + USGS, PI $75,000, Park Oriented Biological Support Grant: Effects of Sarcoptic Mange on Gray Wolves in Yellowstone National Park  
+  + USGS Star Award for Performance  
+  
+## 2009  
+  + USGS, PI $39,000, Modeling environmental transmission of Chronic Wasting Disease  
+  + USGS Star Award for Performance  
+  
+*2008
+  + USGS, Co-PI $320,000, Global Climate Change Initiative   
+  + Co-PI $112,180, Wyoming Livestock-Wildlife Disease Initiative  
+  + Co-PI $281,000, Wyoming Game and Fish Department: Tracking elk movements around the supplemental feedgrounds. 
+  
+## 2007
+  + USGS, Co-PI $750,000 with Mary Poss (Penn State): Viral tracking of mule deer and elk.  
+  + NPS, PI $10,000: Brucellosis in Yellowstone National Park  
+  + USGS Star Award  
+  
+## 2006
+  + USGS, PI $210,000 for chronic wasting disease research. 
+  
+## 1999
+  + NSF-NIH Ecology of Infectious Disease Grant. $1.8 million. Initiated, co-authored, and developed the research program with Dr. Wayne Getz.   
 CONFERENCES & PRESENTATIONS
-
-2014	Invited Speaker, Ecology Seminar, University of Sherbrooke, Canada
-	Speaker, Montana Wildlife Society Meeting, Bozeman MT
-	Invited Speaker, NIH Rocky Mountain Lab, Hamilton MT
-	Invited Speaker, 18°Congreso Chileno de Medicina Veterinaria, Santiago, Chile
-	Invited Speaker, Dept. Seminar, Univ. Catolica, Valdivia, Chile
-	Public Talk, Emerging wildlife pandemics, Menlo Park, CA
-2013	Steering Committee & Invited Speaker. Foreign Animal Disease Preparedness, 
-	Shepardstown WV
-	Speaker, Western States Deer and Elk Meeting, Missoula MT
-	Invited Speaker. Interagency Bison Management Plan Meeting. Chico MT
-2012	Invited Speaker. European Conservation Biology Meeting, Glasgow UK
-	Poster, NSF Ecology of Infectious Disease Meeting, Berkeley, CA
-Invited Speaker & Workshop Participant, Bighorn Sheep disease ecology. Penn State Univ. State College PA
-2011	Speaker, The Wildlife Society Annual Meeting, Hawaii
-Invited Speaker, Wildlife disease management workshop, Penn State Univ.
-Invited Speaker, Ecology and Evolution of Infectious Disease Meeting, Santa Barbara.  
-Invited Participant, NIH sponsored, Movement and the Spatial Dynamics of Mosquito-Transmitted Diseases Meeting, Washington D.C.
-2010	Invited Keynote, Berryman Institute Biennial Meeting, Logan UT.
-Invited Participant, NIH sponsored, Movement and the Spatial Dynamics of 
-Mosquito-Transmitted Diseases Meeting, Washington D.C.
-2009	Kopriva Lecture [Invited] MSU College of Arts and Science, Bozeman, MT
-Invited Speaker, Dept. Seminar, Colorado State University, Fort Collins, CO
-Invited Speaker, EcoHealth Student Chapter, Bozeman, MT
-Invited Speaker, 10th Biennial Conference of Research on the Colorado Plateau
-Speaker, Ecological Society of America, Albuquerque, NM
-2008	Invited Speaker, Ecology Seminar, Montana State University, Bozeman MT
-	Poster, Society for Conservation Biology Montana Chapter, University of Montana. 
-2007	Invited Speaker, Social networks in humans and wildlife workshop, Penn State Univ. 
-Speaker, Jackson Hole Cooperative Elk Working Group, Jackson WY
-2006 	Speaker, Ecological Society of America, Nashville, TN.
-2005 	Speaker, Departmental Seminar, Montana State University
-Invited Speaker, International Mammal Conference, Sapporo Japan.
-2005 	Speaker, Kruger National Park Annual Meeting, South Africa. 
-Speaker, University of California Wildlife Lunch, Berkeley CA.
-Speaker & Attendee, Chronic Wasting Disease Technical Workshop, Park City UT.
-Speaker, NSF-NIH Ecology of Infectious Disease Meeting, Falls Church VA.
-2004 	Best Poster, Wildlife Disease Association, San Diego CA.
-Attendee, Greater Limpopo Transfrontier Conservation Area AHEAD-WCS 
-Meeting, Maputo, Mozambique
-2003 	Speaker, Animal Behavior Society, Boise ID.
-Poster, NSF-NIH Ecology of Infectious Disease Meeting, Bethesda MD.
-Invited speaker, Conservation Research Center Smithsonian Institute, 
-Speaker, SF Bay Area Conservation Biology Symposium, Berkeley CA.
-2002 	Speaker, University of Pretoria, Department of Zoology Annual Meeting, Pretoria.
-Speaker, South African Wildlife Management Association Annual Meeting, Pretoria.
-Speaker, University of California Wildlife Lunch, Berkeley CA. 
-2001 	Speaker, Wildlife Disease Association, Pilanesburg, South Africa. 
-Speaker, University of Pretoria, Department of Zoology Annual Meeting, Pretoria.
-1999 	Poster, Wildlife Society, Population Viability Analysis, San Diego CA.
-1998 	Speaker, University of California Wildlife Lunch, Berkeley CA.
+---------
+2014	Invited Speaker, Ecology Seminar, University of Sherbrooke, Canada  
+	Speaker, Montana Wildlife Society Meeting, Bozeman MT  
+	Invited Speaker, NIH Rocky Mountain Lab, Hamilton MT  
+	Invited Speaker, 18°Congreso Chileno de Medicina Veterinaria, Santiago, Chile  
+	Invited Speaker, Dept. Seminar, Univ. Catolica, Valdivia, Chile  
+	Public Talk, Emerging wildlife pandemics, Menlo Park, CA  
+2013	Steering Committee & Invited Speaker. Foreign Animal Disease Preparedness, Shepardstown WV
+	Speaker, Western States Deer and Elk Meeting, Missoula MT  
+	Invited Speaker. Interagency Bison Management Plan Meeting. Chico MT  
+2012	Invited Speaker. European Conservation Biology Meeting, Glasgow UK  
+	Poster, NSF Ecology of Infectious Disease Meeting, Berkeley, CA  
+Invited Speaker & Workshop Participant, Bighorn Sheep disease ecology. Penn State Univ. State College PA  
+2011	Speaker, The Wildlife Society Annual Meeting, Hawaii  
+Invited Speaker, Wildlife disease management workshop, Penn State Univ.  
+Invited Speaker, Ecology and Evolution of Infectious Disease Meeting, Santa Barbara.    
+Invited Participant, NIH sponsored, Movement and the Spatial Dynamics of Mosquito-Transmitted Diseases Meeting, Washington D.C.  
+2010	Invited Keynote, Berryman Institute Biennial Meeting, Logan UT.  
+Invited Participant, NIH sponsored, Movement and the Spatial Dynamics of Mosquito-Transmitted Diseases Meeting, Washington D.C.  
+2009	Kopriva Lecture [Invited] MSU College of Arts and Science, Bozeman, MT  
+Invited Speaker, Dept. Seminar, Colorado State University, Fort Collins, CO  
+Invited Speaker, EcoHealth Student Chapter, Bozeman, MT  
+Invited Speaker, 10th Biennial Conference of Research on the Colorado Plateau Speaker, Ecological Society of America, Albuquerque, NM  
+2008	Invited Speaker, Ecology Seminar, Montana State University, Bozeman MT  
+	Poster, Society for Conservation Biology Montana Chapter, University of Montana.   
+2007	Invited Speaker, Social networks in humans and wildlife workshop, Penn State Univ.   
+Speaker, Jackson Hole Cooperative Elk Working Group, Jackson WY  
+2006 	Speaker, Ecological Society of America, Nashville, TN.  
+2005 	Speaker, Departmental Seminar, Montana State University  
+Invited Speaker, International Mammal Conference, Sapporo Japan.  
+2005 	Speaker, Kruger National Park Annual Meeting, South Africa.  
+Speaker, University of California Wildlife Lunch, Berkeley CA.  
+Speaker & Attendee, Chronic Wasting Disease Technical Workshop, Park City UT.  
+Speaker, NSF-NIH Ecology of Infectious Disease Meeting, Falls Church VA.  
+2004 	Best Poster, Wildlife Disease Association, San Diego CA.  
+Attendee, Greater Limpopo Transfrontier Conservation Area AHEAD-WCS Meeting, Maputo, Mozambique
+2003 	Speaker, Animal Behavior Society, Boise ID.  
+Poster, NSF-NIH Ecology of Infectious Disease Meeting, Bethesda MD.  
+Invited speaker, Conservation Research Center Smithsonian Institute, Speaker, SF Bay Area Conservation Biology Symposium, Berkeley CA.  
+2002 	Speaker, University of Pretoria, Department of Zoology Annual Meeting, Pretoria.  
+Speaker, South African Wildlife Management Association Annual Meeting, Pretoria.  
+Speaker, University of California Wildlife Lunch, Berkeley CA.  
+2001 	Speaker, Wildlife Disease Association, Pilanesburg, South Africa.  
+Speaker, University of Pretoria, Department of Zoology Annual Meeting, Pretoria.  
+1999 	Poster, Wildlife Society, Population Viability Analysis, San Diego CA.  
+1998 	Speaker, University of California Wildlife Lunch, Berkeley CA.  
 
 SERVICE
-	
-Ongoing  
-Associate Editor, Journal of Wildlife Management
-Red Wolf Recovery Implementation Team, USFWS. 
-Northern Yellowstone Cooperative Wildlife Working Group.
-Chair, USGS Animal Use and Care Committee for NOROCK.  
-2014	Participant, Wildlife Conservation Society Wildlife Health Program, Internal Strategic Workshop for future research. 
-2013    Steering Committee, Group Leader & Speaker. Foreign Animal Disease National 
-Preparedness Workshop. USGS/DHS/USDA/CDC.
-2011		Member Environmental Health Strategic Science Planning Team
+---------
++ 2015-2017, Associate Editor, Journal of Wildlife Management
++ 20XX Red Wolf Recovery Implementation Team, USFWS. 
++ Northern Yellowstone Cooperative Wildlife Working Group.
++ Chair, USGS Animal Use and Care Committee for NOROCK.  
++ 2014	Participant, Wildlife Conservation Society Wildlife Health Program, Internal Strategic Workshop for future research. 
++ 2013    Steering Committee, Group Leader & Speaker. Foreign Animal Disease National 
+Preparedness Workshop. USGS/DHS/USDA/CDC.  
++ 2011		Member Environmental Health Strategic Science Planning Team
 		Co-coordinator & originator, NIH & DHS RAPIDD Working group on cross-species transmission. 15 participants 
 		Participant, NIH & DHS RAPIDD Working group on movement and mosquito-borne diseases.
 		USGS representative. Northern Rockies NEON committee.
@@ -201,11 +233,13 @@ Participant, USDA workshop: The Science of Surveillance, Control and Eradication
 2005-8	USGS representative. Greater Yellowstone Interagency Brucellosis Committee.
  
 REVIEWER 
+---------
 Journals (since 2004): Nature [1], Ecol App [5], J Anim Ecol [1], J App Ecol [6], Proc Roy Soc B [2], Phil Trans Roy Soc B [2], Biol Letters [1], Cons Bio [2], Biol Cons [1], Anim. Cons. [1], Biodiv Cons [1], Behavior [1], Envi. Cons. [1], J Wildl Dis [4], Wildl Bio [2], PloS ONE [6], EcoHealth [2], J. Theo. Bio. [2], SA J Wildl Res [1], Ann Zoo Fennici [1], Ecol Mod [1], USGS FSP [9], USGS Study Plans [4].
-
+  
 Funding Agencies: National Science Foundation [2], Wildlife Conservation Society [1], Wellcome Trust [1], Biotechnology and Biological Sciences Research Council UK [1], Natural Environment Research Council UK [1], South African National Research Foundation [1], Alberta Prion Research Institute [2], National Institutes of Health [1]
 
 PRESS & OUTREACH
+<<<<<<< HEAD
 
 Thermal Wolves
 The Wildlife Professional 2015
@@ -218,3 +252,26 @@ Examiner.com 2010
 
 www.yellowstonewolf.org
 www.gyebrucellosis.net
+=======
+---------
+Thermal Wolves  
+The Wildlife Professional 2015  
+New Zealand Herald 2013  
+Discovery Channel Curiosity X-Ray Yellowstone 2012  
+Wired Magazine 2012  
+Science World Scholastic Magazine 2012  
+Billings Gazette 2010  
+Examiner.com 2010  
+  
+REFERENCES
+---------
+
+Dr. Claudia Regan, Center Director, Northern Rocky Mountain Science Center, USGS, 2327 University Way, Suite 2, Bozeman MT 59715.
+Phone: (406) 994-7972 Email: cregan@usgs.gov
+
+Mr. Brandon Scurlock, Brucellosis-Feedground-Habitat Supervisor, Wyoming Game and Fish Department, Pinedale Office, PO Box 850, Pinedale, WY 82941
+Phone: (307) 367-4347ext224		Email: brandon.scurlock@wgf.state.wy.us
+
+Dr. Doug W. Smith, Yellowstone Center for Resources, Wolf Project, Yellowstone National Park, WY  82190
+Phone: (307) 344-2242	Email: doug_smith@nps.gov
+>>>>>>> 0e9a17cb052b8c3e7ab502c406f35bc6eb655d7d
