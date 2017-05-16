@@ -7,7 +7,6 @@
    number = {1604},
    pages = {2840-2851},
    DOI = {10.1098/rstb.2011.0369},
-   url = {http://rstb.royalsocietypublishing.org/cgi/doi/10.1098/rstb.2011.0369},
    year = {2012},
    type = {Journal Article}
 }
@@ -19,10 +18,7 @@
    volume = {18},
    number = {7},
    pages = {660-7},
-   ISSN = {1461-0248 (Electronic)
-1461-023X (Linking)},
    DOI = {10.1111/ele.12444},
-   url = {http://www.ncbi.nlm.nih.gov/pubmed/25983011},
    year = {2015},
    type = {Journal Article}
 }
@@ -34,6 +30,7 @@
    volume = {24},
    number = {1},
    pages = {47-49},
+   url = {www.nps.gov/yell/learn/ys-24-1-infectious-diseases-of-wolves-in-yellowstone.htm},
    year = {2016},
    type = {Journal Article}
 }
@@ -69,6 +66,7 @@
    volume = {19},
    number = {2},
    pages = {16-25},
+   url = {pubs.er.usgs.gov/publication/70044063},
    year = {2011},
    type = {Journal Article}
 }
@@ -80,10 +78,7 @@
    volume = {148},
    number = {2-4},
    pages = {329-32},
-   ISSN = {1873-2542 (Electronic)
-0378-1135 (Linking)},
    DOI = {10.1016/j.vetmic.2010.09.022},
-   url = {https://www.ncbi.nlm.nih.gov/pubmed/20961711},
    year = {2011},
    type = {Journal Article}
 }
@@ -107,10 +102,7 @@
    volume = {7},
    number = {7},
    pages = {774-87},
-   ISSN = {1752-4571 (Electronic)
-1752-4571 (Linking)},
    DOI = {10.1111/eva.12173},
-   url = {http://www.ncbi.nlm.nih.gov/pubmed/25469159},
    year = {2014},
    type = {Journal Article}
 }
@@ -546,11 +538,12 @@
 @inbook{RN2196,
    author = {Getz, Wayne M and Lloyd-Smith, James O and Cross, Paul C and Bar-David, S and Johnson, Philip LF and Porco, Travis C  and Sánchez, Maria S},
    title = {Modeling the invasion and spread of contagious disease in heterogeneous populations},
-   booktitle = {Disease Evolution: Models, Concepts and Data analyses},
+   booktitle = {Disease Evolution: Models, Concepts and Data Analyses},
    editor = {Feng, Zhilan and Dieckmann, U and Levin, S. A.},
    publisher = {AMS-DIMACS},
    volume = {71},
    pages = {113-144},
+   ISBN = {978-1-4704-4028-2},
    year = {2006},
    type = {Book Section}
 }
@@ -637,9 +630,7 @@
    volume = {24},
    number = {7},
    pages = {1769-1779},
-   ISSN = {1051-0761},
    DOI = {10.1890/13-2092.1},
-   url = {<Go to ISI>://WOS:000342859800015},
    year = {2014},
    type = {Journal Article}
 }
@@ -713,7 +704,6 @@
    number = {9},
    pages = {511-519},
    DOI = {10.1016/j.tree.2005.07.004},
-   url = {<Go to ISI>://000232128300011 },
    year = {2005},
    type = {Journal Article}
 }
@@ -759,9 +749,7 @@
    volume = {97},
    number = {10},
    pages = {2593-2602},
-   ISSN = {1939-9170},
    DOI = {10.1002/ecy.1520},
-   url = {http://dx.doi.org/10.1002/ecy.1520},
    year = {2016},
    type = {Journal Article}
 }
@@ -815,7 +803,6 @@
    number = {2-4},
    pages = {91-100},
    DOI = {:10.1016/j.vetmic.2005.11.035},
-   url = {<Go to ISI>://000235397400002 },
    year = {2006},
    type = {Journal Article}
 }
@@ -902,7 +889,6 @@
    number = {7},
    pages = {1499-1508},
    DOI = {10.1002/jwmg.407},
-   url = {http://doi.wiley.com/10.1002/jwmg.407},
    year = {2012},
    type = {Journal Article}
 }
@@ -933,7 +919,7 @@
 }
 
 @article{RN4891,
-   author = {Serrano, E. and Cross, Paul C. and Beneria, M. and Ficapal, A. and Curia, J. and Marco, X. and Lavín, S. and Marco, I.},
+   author = {Serrano, E. and Cross, Paul C. and Beneria, M. and Ficapal, A. and Curia, J. and Marco, X. and Lavin, S. and Marco, I.},
    title = {Decreasing prevalence of brucellosis in red deer through efforts to control disease in livestock},
    journal = {Epidemiology and infection},
    volume = {139},

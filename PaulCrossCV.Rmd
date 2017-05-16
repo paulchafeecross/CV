@@ -1,8 +1,8 @@
 ---
 title: "Paul Chafee Cross"
 params:
-  address: U.S. Geological Survey, Northern Rocky Mountain Science Center,  2327 University
-    Way, Suite 2, Bozeman, MT 59715
+  address1: U.S. Geological Survey, Northern Rocky Mountain Science Center
+  address2: 2327 University Way, Suite 2, Bozeman, MT 59715
   cellphone: 406-581-1763
   email: pcross@usgs.gov
   website: www.usgs.gov/staff-profiles/paul-cross
@@ -17,17 +17,13 @@ list-style-type: none;
 }
 </style>
 <!--/html_preserve-->
-
-```{r echo=FALSE,warning=FALSE,message=FALSE}
-library(RefManageR)
-```
-
 <ul class="CV">
-<li><i class="fa fa-home" aria-hidden="true"></i>  `r paste(" ",params$address)`</li>
-<li><i class="fa fa-envelope-o" aria-hidden="true"></i>  `r paste(" ",params$email)`</li>
-<li><i class="fa fa-mobile" aria-hidden="true"></i>  `r paste(" ",params$telephone)`</li>
-<li><i class="fa fa-globe" aria-hidden="true"></i>  [`r paste(" ",params$website)`](`r params$website`)</li>
-<li><i class="fa fa-clock-o" aria-hidden="true"></i> Last Updated: `r paste(" ",format(Sys.Date(), "%B %d, %Y"))`</li>
+<li><center><i class="fa fa-home" aria-hidden="true"></i>  `r paste(" ",params$address1)`</center></li>
+<li><center><i class="fa fa-home" aria-hidden="true"></i>  `r paste(" ",params$address2)`</center></li>
+<li><center><i class="fa fa-envelope-o" aria-hidden="true"></i>  `r paste(" ",params$email)`</center></li>
+<li><center><i class="fa fa-mobile" aria-hidden="true"></i>  `r paste(" ",params$telephone)`</center></li>
+<li><center><i class="fa fa-globe" aria-hidden="true"></i>  [`r paste(" ",params$website)`](`r params$website`)</li>
+<li><center><i class="fa fa-clock-o" aria-hidden="true"></i> Last Updated: `r paste(" ",format(Sys.Date(), "%B %d, %Y"))`</center></li>
 </ul>
 
 ## Education
@@ -43,9 +39,9 @@ library(RefManageR)
 1999-2005:  Graduate Student Researcher, U.C. Berkeley  
 
 ## Publications
-  
 
-```{r echo=FALSE, results="asis", message = FALSE, comment=FALSE}
+```{r echo=FALSE, results="asis", message = FALSE, comment = FALSE}
+library(RefManageR)
 file_journals <- ReadBib("Cross_Pubs.bib")
 dates <- unlist(unique(file_journals$year))[order(unlist(unique(file_journals$year)),decreasing = TRUE)]
 
@@ -67,7 +63,7 @@ Ebinger, MR & PC Cross. 2008. Surveillance for brucellosis in Yellowstone bison:
   
 ## Databases
   
-Cross, P.C. D. M. Heisey, J. A. Bowers, C. T. Hay, J. Wolhuter, P. Buss, M. Hofmeyr, A. Michel, R. Bengis, T. Bird, I. J. Whyte, J. T. Du Toit, and W. M. Getz. 2009. Buffalo herd tracking with VHF and GPS data. Movebank.org.  
+Cross, P.C. D. M. Heisey, J. A. Bowers, C. T. Hay, J. Wolhuter, P. Buss, M. Hofmeyr, A. Michel, R. Bengis, T. Bird, I. J. Whyte, J. T. Du Toit, and W. M. Getz. 2009. Buffalo herd tracking with VHF and GPS data. www.Movebank.org.  
 
 Cross PC, Heisey DM, Bowers JA, Hay CT, Wolhuter J, Buss P, Hofmeyr M, Michel AL, Bengis RG, Bird TLF, Du Toit JT, Getz WM (2008) Data from: Disease, predation and demography: assessing the impacts of bovine tuberculosis on African buffalo by monitoring at individual and population levels. Dryad Digital Repository. doi:10.5061/dryad.5hh3h  
 
@@ -259,7 +255,6 @@ Speaker, University of California Wildlife Lunch, Berkeley CA.
 + 2009 Organizer, Greater Yellowstone Brucellosis Research Meeting (2 days), 60 participants, 27 speakers, Bozeman MT
 + 2009 Participant, Dept. of Interior Avian Influenza Preparedness workshop, Madison WI
 + 2009 Participant, Yellowstone National Park Science Agenda Workshop, Bozeman MT
-+ 2008 Acting Chair, Northern Yellowstone Cooperative Wildlife Working Group.
 + 2007 Steering Committee, Yellowstone National Park Wildlife Health Program Meeting.
 + 2007 Participant, USDA workshop: The Science of Surveillance, Control and Eradication of Catastrophic Diseases in Wildlife, Pinagree Park CO
 + 2006	Participant, Disease and conservation of mammals, Conservation International
@@ -267,9 +262,9 @@ Speaker, University of California Wildlife Lunch, Berkeley CA.
  
 ## Reviewer
 
-*Journals* (since 2004): Nature, Ecol App, J Anim Ecol, J App Ecol, Proc Roy Soc B, Phil Trans Roy Soc, Biol Letters, Cons Bio, Biol Cons, Anim Cons, Biodiv Cons, Behavior, Envi Cons, J Wildl Dis, Wildl Bio, PloS ONE, EcoHealth, J Theo Bio, SA J Wildl Res, Ann Zoo Fennici, Ecol Mod [1], USGS FSP, USGS Study Plans
+*Journals* (since 2004): Nature, Ecol App, J Anim Ecol, J App Ecol, Proc Roy Soc B, Phil Trans Roy Soc, Biol Letters, Cons Bio, Biol Cons, Anim Cons, Biodiv Cons, Behavior, Envi Cons, J Wildl Dis, Wildl Bio, PloS ONE, EcoHealth, J Theo Bio, SA J Wildl Res, Ann Zoo Fennici, Ecol Mod, USGS FSP, USGS Study Plans
   
-*Funding Agencies*: National Science Foundation [2], Wildlife Conservation Society [1], Wellcome Trust [1], Biotechnology and Biological Sciences Research Council UK [1], Natural Environment Research Council UK [1], South African National Research Foundation [1], Alberta Prion Research Institute [2], National Institutes of Health [1]
+*Funding Agencies*: National Science Foundation, Wildlife Conservation Society, Wellcome Trust, Biotechnology and Biological Sciences Research Council UK, Natural Environment Research Council UK, South African National Research Foundation, Alberta Prion Research Institute, National Institutes of Health
 
 ## Press and Outreach
 
@@ -280,8 +275,6 @@ Speaker, University of California Wildlife Lunch, Berkeley CA.
 + Discovery Channel Curiosity X-Ray Yellowstone 2012
 + Wired Magazine 2012
 + Science World Scholastic Magazine 2012
-+ Billings Gazette 2010
-+ Examiner.com 2010
 + www.yellowstonewolf.org
 
 ## References
