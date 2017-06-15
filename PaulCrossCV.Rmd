@@ -7,8 +7,9 @@ params:
   email: pcross@usgs.gov
   website: www.usgs.gov/staff-profiles/paul-cross
 output:
-  html_document: default
+  word_document: default
   pdf_document: default
+  html_document: default
 ---
 <!--html_preserve-->
 <style type="text/css">
@@ -57,17 +58,18 @@ for (date in dates) {
   }
 }
 ```
+
 ## Grey Literature  
   
 Ebinger, MR & PC Cross. 2008. Surveillance for brucellosis in Yellowstone bison: The power of various strategies to detect vaccination effects. National Park Service, Mammoth, WY, YCR-2008-04. 69 pages.  
   
 ## Databases
   
-Cross, P.C. D. M. Heisey, J. A. Bowers, C. T. Hay, J. Wolhuter, P. Buss, M. Hofmeyr, A. Michel, R. Bengis, T. Bird, I. J. Whyte, J. T. Du Toit, and W. M. Getz. 2009. Buffalo herd tracking with VHF and GPS data. www.Movebank.org.  
+Cross, P.C. D. M. Heisey, J. A. Bowers, C. T. Hay, J. Wolhuter, P. Buss, M. Hofmeyr, A. Michel, R. Bengis, T. Bird, I. J. Whyte, J. T. Du Toit, and W. M. Getz. 2009. Buffalo herd tracking with VHF and GPS data. <http://www.Movebank.org>.
 
-Cross PC, Heisey DM, Bowers JA, Hay CT, Wolhuter J, Buss P, Hofmeyr M, Michel AL, Bengis RG, Bird TLF, Du Toit JT, Getz WM (2008) Data from: Disease, predation and demography: assessing the impacts of bovine tuberculosis on African buffalo by monitoring at individual and population levels. Dryad Digital Repository. doi:10.5061/dryad.5hh3h  
+Cross PC, Heisey DM, Bowers JA, Hay CT, Wolhuter J, Buss P, Hofmeyr M, Michel AL, Bengis RG, Bird TLF, Du Toit JT, Getz WM (2008) Data from: Disease, predation and demography: assessing the impacts of bovine tuberculosis on African buffalo by monitoring at individual and population levels. Dryad Digital Repository. <http://dx.doi.org/10.5061/dryad.5hh3h>  
 
-Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-dependent survival, fecundity, and predicted population-level consequences of brucellosis in African buffalo. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.p6678  
+Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-dependent survival, fecundity, and predicted population-level consequences of brucellosis in African buffalo. Dryad Digital Repository <http://dx.doi.org/10.5061/dryad.p6678>. 
 
 ## Students
 
@@ -161,11 +163,16 @@ Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-
 
 ## Presentations
 
+###2017
+Invited Speaker, Glasgow University Ecology Seminar, Glasgow, UK.  
+Invited Speaker, University of California at Berkeley, Wildlife Seminar  
+Plenary Speaker, Western Association of Fish and Wildlife Agencies, 12th Western States and Provinces Deer and Elk Workshop. Sun Valley, ID.  
+
 ###2016 	
 Invited Speaker, Utah State University Ecology Seminar. Logan, UT  
 Invited Speaker, Monthly USGS Disease webinar.  
-Invited Speaker, UCLA Ecology Seminar, Los Angeles, CA. 
-Invited Speaker, Patuxent USGS Seminar. 
+Invited Speaker, UCLA Ecology Seminar, Los Angeles, CA.  
+Invited Speaker, Patuxent USGS Seminar.  
 Invited Speaker, Georgetown Ecology Seminar, Washington, D.C.  
 Ecology Society of America Annual Meeting. Fort Lauderdale, FL  
 Invited Speaker, 50th Anniv. Mammal Research Institute, South Africa    
@@ -243,7 +250,7 @@ Speaker, University of California Wildlife Lunch, Berkeley CA.
 ### Previous
 
 + 2015-2017, Associate Editor, Journal of Wildlife Management
-+ 2016 National Academy of Science Panel Member
++ 2016 National Academy of Science Panel Member: Revisiting Brucellosis in the Greater Yellowstone Ecosystem
 + 2016 Dept. Homeland Security IPT for outbreak response and assessment tools. 
 + 2014 Red Wolf Recovery Implementation Team, USFWS. 
 + 2014 Participant, Wildlife Conservation Society Wildlife Health Program, Internal Strategic Workshop for future research. 
@@ -267,15 +274,16 @@ Speaker, University of California Wildlife Lunch, Berkeley CA.
 *Funding Agencies*: National Science Foundation, Wildlife Conservation Society, Wellcome Trust, Biotechnology and Biological Sciences Research Council UK, Natural Environment Research Council UK, South African National Research Foundation, Alberta Prion Research Institute, National Institutes of Health
 
 ## Press and Outreach
-
-+ Economist 2015
-+ NSF Science 360 2015
++ [Naturally Speaking](https://naturallyspeaking.blog/2017/04/26/episode-51-natures-greatest-theatre-ecology-and-disease-in-yellowstone/) 2017
++ [Bozeman Daily Chronicle](http://www.bozemandailychronicle.com/news/environment/report-elk-greater-brucellosis-transmission-risk-than-bison/article_8329c551-18a2-50a5-9352-f585935a7d99.html) 2016
++ [The Economist](http://www.economist.com/news/science-and-technology/21652259-wolves-yellowstone-provide-some-surprising-survival-lessons-pack-power) 2015
++ [NSF Science 360](https://science360.gov/obj/video/0f50aca7-2691-4126-996f-8ec5b74a9eb0/understanding-ecological-role-wolves-yellowstone-national-park) 2015
 + The Wildlife Professional 2015
 + New Zealand Herald 2013
-+ Discovery Channel Curiosity X-Ray Yellowstone 2012
-+ Wired Magazine 2012
-+ Science World Scholastic Magazine 2012
-+ www.yellowstonewolf.org
++ [Discovery Channel](http://store.discoveryeducation.com/product/show/129481): Curiosity X-Ray Yellowstone 2012
++ [Wired Magazine](https://www.wired.com/2012/05/st_photo_wolves/) 2012
++ [Science World Scholastic Magazine](http://scienceworld.scholastic.com/issues/09_17_12) 2012
++ Yellowstone Wolf Citizen Science Webpage: <www.yellowstonewolf.org>
 
 ## References
 
