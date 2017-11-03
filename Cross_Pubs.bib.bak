@@ -1,4 +1,3 @@
-% Encoding: UTF-8
 ﻿@article{RN4669,
    author = {Almberg, Emily S. and Cross, Paul C. and Dobson, Andy P. and Smith, D. W. and Hudson, P. J.},
    title = {Parasite invasion following host reintroduction: a case study of Yellowstone's wolves},
@@ -99,8 +98,6 @@
    author = {Benavides, J. A. and Caillaud, D. and Scurlock, B. M. and Maichak, E. J. and Edwards, W. H. and Cross, P. C.},
    title = {Estimating loss of Brucella abortus antibodies from age-specific serological data in elk},
    journal = {EcoHealth},
-   volume = {14},
-   pages = {234-243},
    DOI = {10.1007/s10393-017-1235-z},
    year = {2017},
    type = {Journal Article}
@@ -198,16 +195,6 @@
    pages = {1338-1345},
    DOI = {10.1890/02-5266},
    year = {2003},
-   type = {Journal Article}
-}
-
-@article{RN21656,
-   author = {Cassirer, E. Frances and Manlove, Kezia R. and Almberg, Emily S. and Kamath, Pauline L. and Cox, Mike and Wolff, Peregrine and Roug, Annette and Shannon, Justin and Robinson, Rusty and Harris, Richard B. and Gonzales, Ben J. and Plowright, Raina K. and Hudson, Peter J. and Cross, Paul C. and Dobson, Andrew and Besser, Thomas E.},
-   title = {Pneumonia in bighorn sheep: Risk and resilience},
-   journal = {The Journal of Wildlife Management},
-   ISSN = {0022541X},
-   DOI = {10.1002/jwmg.21309},
-   year = {2017},
    type = {Journal Article}
 }
 
@@ -794,8 +781,8 @@
    author = {Manlove, Kezia R and Cassirer, E. F. and Plowright, R K and Cross, P C and Hudson, P J},
    title = {Contact and contagion: Bighorn sheep demographic states vary in probability of transmission given contact},
    journal = {Journal of Animal Ecology},
-   volume = {86},
-   pages = {908-920},
+   volume = {00},
+   pages = {000-000},
    DOI = {10.1111/1365-2656.12664},
    year = {2017},
    type = {Journal Article}
@@ -810,16 +797,6 @@
    pages = {e1002448},
    DOI = {10.1371/journal.pbio.1002448},
    year = {2016},
-   type = {Journal Article}
-}
-
-@article{RN21679,
-   author = {Merkle, Jerod A. and Cross, Paul C. and Scurlock, Brandon M. and Cole, Eric K. and Courtemanch, Alyson B. and Dewey, Sarah R. and Kauffman, Matthew J. and Rohr, Jason},
-   title = {Linking spring phenology with mechanistic models of host movement to predict disease transmission risk},
-   journal = {Journal of Applied Ecology},
-   ISSN = {00218901},
-   DOI = {10.1111/1365-2664.13022},
-   year = {2017},
    type = {Journal Article}
 }
 
@@ -1017,4 +994,3 @@
    type = {Journal Article}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}

@@ -7,9 +7,9 @@ params:
   email: pcross@usgs.gov
   website: www.usgs.gov/staff-profiles/paul-cross
 output:
-  word_document: default
   pdf_document: default
   html_document: default
+  word_document: default
 ---
 <!--html_preserve-->
 <style type="text/css">
@@ -166,7 +166,8 @@ Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-
 ###2017
 Invited Speaker, Glasgow University Ecology Seminar, Glasgow, UK.  
 Invited Speaker, University of California at Berkeley, Wildlife Seminar  
-Plenary Speaker, Western Association of Fish and Wildlife Agencies, 12th Western States and Provinces Deer and Elk Workshop. Sun Valley, ID.  
+Invited Plenary Speaker, Western Association of Fish and Wildlife Agencies, 12th Western States and Provinces Deer and Elk Workshop. Sun Valley, ID.  
+Invited Speaker, Center for Infectious Disease Dynamics, Penn State University. 
 
 ###2016 	
 Invited Speaker, Utah State University Ecology Seminar. Logan, UT  
