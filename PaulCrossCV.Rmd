@@ -1,26 +1,28 @@
 ---
 title: "CV"
 author: "Paul Chafee Cross"
-email: pcross@usgs.gov
+cellphone: 406-581-1763
 output:
+  word_document: default
   pdf_document:
     latex_engine: pdflatex
     template: rap-latex-cv.tex
   html_document:
     df_print: paged
+fontawesome: yes
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 10pt
 geometry: margin=1in
-jobtitle: Wildlife Researcher, U.S. Geological Survey, Northern Rocky Mountain Science Center
+jobtitle: Wildlife Researcher, U.S. Geological Survey, Northern Rocky Mountain Science
+  Center
 linkcolor: blue
 orcid: orcid.org/0000-0001-8045-5213
-fontawesome: yes
+email: pcross@usgs.gov
 address: 2327 University Way, Suite 2, Bozeman, MT 59715
-cellphone: 406-581-1763
 updated: yes
 urlcolor: blue
-web:  www.usgs.gov/staff-profiles/paul-cross
+web: www.usgs.gov/staff-profiles/paul-cross
 ---
 
 # Education
