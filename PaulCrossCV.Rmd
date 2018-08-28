@@ -3,12 +3,12 @@ title: "CV"
 author: "Paul Chafee Cross"
 cellphone: 406-581-1763
 output:
-  pdf_document:
-    latex_engine: pdflatex
-    template: rap-latex-cv.tex
   word_document: default
   html_document:
     df_print: paged
+  pdf_document:
+    latex_engine: pdflatex
+    template: rap-latex-cv.tex
 fontawesome: yes
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
