@@ -50,7 +50,9 @@ for (date in dates) {
     print(file_journals[list(year = date)],
           .opts = list(style = "markdown", 
                        bib.style = "authoryear",
-                       max.names = 15, dashed=FALSE))
+                       max.names = 15, 
+                       first.inits = T,
+                       dashed=FALSE))
     cat("\n")
   }
 }
@@ -167,10 +169,10 @@ Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-
 
 # Service
 
-+ Reviewer of the USDA Cattle Fever Tick Eradication Program. \hfill ongoing
-+ Associate Editor, Ecological Applications  
-+ Northern Yellowstone Cooperative Wildlife Working Group.  
++ Associate Editor, Ecological Applications \hfill ongoing
++ Northern Yellowstone Cooperative Wildlife Working Group.
 + Chair, USGS Animal Use and Care Committee for NOROCK.
++ Reviewer of the USDA Cattle Fever Tick Eradication Program. \hfill 2018-2019
 + Associate Editor, Journal of Wildlife Management \hfill 2015-2017
 + National Academy of Science Panel Member: Revisiting Brucellosis in the GYE
 + Dept. Homeland Security IPT for outbreak response and assessment tools. \hfill 2016
