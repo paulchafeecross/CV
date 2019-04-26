@@ -3,9 +3,9 @@ title: "CV"
 author: "Paul Chafee Cross"
 cellphone: 406-581-1763
 output:
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
   pdf_document:
     latex_engine: pdflatex
     template: rap-latex-cv.tex
@@ -45,8 +45,8 @@ dates <- unlist(unique(file_journals$year))[order(unlist(unique(file_journals$ye
 
 #Prints references
 for (date in dates) {
-  if(length(file_journals[list(year = date)]) > 0){
-    cat(paste0("##", date), "\n")
+  if(date == 2020) {
+    cat(paste0("##", "In review"), "\n")
     print(file_journals[list(year = date)],
           .opts = list(style = "markdown", 
                        bib.style = "authoryear",
@@ -55,11 +55,26 @@ for (date in dates) {
                        dashed=FALSE))
     cat("\n")
   }
+  if(date < 2020){
+    if(length(file_journals[list(year = date)]) > 0){
+      cat(paste0("##", date), "\n")
+      print(file_journals[list(year = date)],
+            .opts = list(style = "markdown", 
+                         bib.style = "authoryear",
+                         max.names = 15, 
+                         first.inits = T,
+                         dashed=FALSE))
+      cat("\n")
+      }
+  }
+  
 }
 ```
 
 ## Grey Literature  
   
+Rayl, ND, Proffitt, KM, Almberg, ES, Merkle, JA, Jones, JH, Gude, JA & Cross, PC. 2018 Modelling elk-to-livestock transmission risk to identify hotspots of brucellosis spillover. pp. 1-56, Montana Fish, Wildlife and Parks.
+
 Ebinger, MR & PC Cross. 2008. Surveillance for brucellosis in Yellowstone bison: The power of various strategies to detect vaccination effects. National Park Service, Mammoth, WY, YCR-2008-04. 69 pages.  
   
 # Databases  
