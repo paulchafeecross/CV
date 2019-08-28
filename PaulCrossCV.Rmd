@@ -3,16 +3,15 @@ title: "CV"
 author: "Paul Chafee Cross"
 cellphone: 406-581-1763
 output:
+  pdf_document:
+    latex_engine: xelatex
+    template: rap-latex-cv.tex
+  word_document: default
   html_document:
     df_print: paged
-  word_document: default
-  pdf_document:
-    latex_engine: pdflatex
-    template: rap-latex-cv.tex
-fontawesome: yes
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
-fontsize: 10pt
+fontsize: 11pt
 geometry: margin=1in
 jobtitle: Wildlife Researcher, U.S. Geological Survey, Northern Rocky Mountain Science
   Center
@@ -46,18 +45,18 @@ dates <- unlist(unique(file_journals$year))[order(unlist(unique(file_journals$ye
 #Prints references
 for (date in dates) {
   if(date == 2020) {
-    cat(paste0("##", "In review"), "\n")
+    cat(paste("##", "In review", sep = " "), "\n")
     print(file_journals[list(year = date)],
           .opts = list(style = "markdown", 
                        bib.style = "authoryear",
                        max.names = 15, 
                        first.inits = T,
-                       dashed=FALSE))
+                       dashed = FALSE))
     cat("\n")
   }
   if(date < 2020){
     if(length(file_journals[list(year = date)]) > 0){
-      cat(paste0("##", date), "\n")
+      cat(paste("##", date, sep = " "), "\n")
       print(file_journals[list(year = date)],
             .opts = list(style = "markdown", 
                          bib.style = "authoryear",
@@ -93,136 +92,133 @@ Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-
 
 # Students
 
-+ Gavin Cotterill. In progress. Managing disease in the supplemental feeding grounds of Wyoming. Utah State University. Co-supervisor: JT Du Toit
-+ Ellen Brandell. In progress. Disease impacts on wolves in Yellowstone National Park. Penn State University. Co-supervisor: PJ Hudson
-+ Angela Brennan. 2014. Broad-scale determinants of elk aggregation and brucellosis seroprevalence. Montana State University. Co-supervisor: S Creel.
-+ Tyler Creech. 2011. Heterogeneity in the fine-scale contact patterns of elk as determined by proximity collars. Montana State University. Co-supervisor: S Creel
-+ Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The Effects of Supplemental Feeding on Stress Hormone Levels in Elk. Montana State University. Co-supervisors: M Taper, S Creel
-+ Craig Hay. 2006 Choice of Social environment of male buffalo (*Syncerus caffer*) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: P Funston
-+ Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buffalo (*Syncerus caffer*) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa.   Co-supervisor: E Cameron  
+Gavin Cotterill. In progress. Managing disease in the supplemental feeding grounds of Wyoming. Utah State University. Co-supervisor: JT Du Toit  
+Ellen Brandell. In progress. Disease impacts on wolves in Yellowstone National Park. Penn State University. Co-supervisor: PJ Hudson  
+Angela Brennan. 2014. Broad-scale determinants of elk aggregation and brucellosis seroprevalence. Montana State University. Co-supervisor: S Creel.  
+Tyler Creech. 2011. Heterogeneity in the fine-scale contact patterns of elk as determined by proximity collars. Montana State University. Co-supervisor: S Creel  
+Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The Effects of Supplemental Feeding on Stress Hormone Levels in Elk. Montana State University. Co-supervisors: M Taper, S Creel  
+Craig Hay. 2006 Choice of Social environment of male buffalo (*Syncerus caffer*) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: P Funston  
+Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buffalo (*Syncerus caffer*) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa.   Co-supervisor: E Cameron   
 
 ## Field Supervisor
-+ Manlove, K. 2017. Penn State University. Supervisor: PJ Hudson
-+ Almberg, ES. 2015. The Invasion, Dynamics, and Impacts of Infectious Disease in Yellowstone's Wolf Population. Penn State University. Supervisor: PJ Hudson
-+ Bowers, JA. 2006. Master's thesis: Feeding patch selection of African Buffalo (*Syncerus caffer caffer()) in the central region of the Kruger National Park.Tshwane University of Technology. South Africa
-+ Tania Bird. 2004. Master's thesis: Influence of bovine tuberculosis (*Mycobacterium bovis*) on condition and reproductive success of females African buffalo (*Syncerus caffer*) in Kruger National Park. University of Pretoria. South Africa
-+ Shane Abeare. 2004. Master's thesis: Dry season habitat and patch selection by African buffalo herds: test of a new home range estimator. University of Pretoria. South Africa
-+ Valerio Macandza 2002. Master's thesis: Forage selection by African buffalo in the late dry season in two landscapes. Witwatersrand University. South Africa
-+ Alex Caron. 2001. Master's thesis: Ecological implications of bovine tuberculosis in African Buffalo. University of Pretoria. South Africa  
+Manlove, K. 2017. Penn State University. Supervisor: PJ Hudson  
+Almberg, ES. 2015. The Invasion, Dynamics, and Impacts of Infectious Disease in Yellowstone's Wolf Population. Penn State University. Supervisor: PJ Hudson  
+Bowers, JA. 2006. Master's thesis: Feeding patch selection of African Buffalo (*Syncerus caffer* in the central region of the Kruger National Park.Tshwane University of Technology. South Africa  
+Tania Bird. 2004. Master's thesis: Influence of bovine tuberculosis (*Mycobacterium bovis*) on condition and reproductive success of females African buffalo (*Syncerus caffer*) in Kruger National Park. University of Pretoria. South Africa  
+Shane Abeare. 2004. Master's thesis: Dry season habitat and patch selection by African buffalo herds: test of a new home range estimator. University of Pretoria. South Africa  
+Valerio Macandza 2002. Master's thesis: Forage selection by African buffalo in the late dry season in two landscapes. Witwatersrand University. South Africa  
+Alex Caron. 2001. Master's thesis: Ecological implications of bovine tuberculosis in African Buffalo. University of Pretoria. South Africa  
 
 # Teaching 
 
-+ Data Analysis and Multi-level / Hierarchical Modeling in Ecology (1 credit) Fall 2009. MSU.
-+ Modeling Infectious Disease (3 day workshop) 2009. Univ. of Montana.
-+ EcoLunch Seminar (1 credit) Fall 2008. MSU.
-+ Plant-Disease Invasion Seminar (informal graduate seminar). Fall 2006. MSU.
-+ Wildlife Ecology (4 credits with lab) Spring 2005. Co-Lecturer UC Berkeley.
-+ Disease Ecology (1 credit) 2004. Co-supervised graduate seminar on disease ecology, UC Berkeley
-+ Modeling Infectious Disease (1 week short-course) 2001. Univ. of Witwatersrand, South Africa
-+ Diseases of the GYE. 1 lectures per year for an introductory class on the GYE. MSU.
-+ Disease Ecology. 2 lectures per year for upper-level ecology students. MSU
-+ Philosophy of Science. 2007. 2 classes. MSU.
+Data Analysis and Multi-level / Hierarchical Modeling in Ecology (1 credit) Fall 2009. MSU.  
+Modeling Infectious Disease (3 day workshop) 2009. Univ. of Montana.  
+EcoLunch Seminar (1 credit) Fall 2008. MSU.  
+Plant-Disease Invasion Seminar (graduate seminar). Fall 2006. MSU.  
+Wildlife Ecology (4 credits with lab) Spring 2005. Co-Lecturer UC Berkeley.  
+Disease Ecology (1 credit) 2004. Co-supervised graduate seminar on disease ecology, UC Berkeley  
+Modeling Infectious Disease (1 week short-course) 2001. Univ. of Witwatersrand, South Africa  
 
 # Grants/Awards 
 
-+ USGS Performance Award (2016-2012,2010-2007)
-+ USDA grant to Univ of Washington, $96,000 Livestock-wildlife disease modeling \hfill 2016
-+ USGS Grade Promotion
-+ MT FWP cooperative agreement $45,000 Cattle disease risk assessment. \hfill 2015
-+ USGS, PI $ 133,000 Greater Yellowstone ecosystem disease research.
-+ NIMBioS Workshop (Co-PI) ~$60,000 \hfill 2013
-+ NSF Dissertation Improvement Grant (Co-PI) $19,343
-+ USGS, PI $ 98,000 Greater Yellowstone ecosystem disease research
-+ USGS Powell Center Grant, Co-PI (declined) \hfill 2012
-+ USGS, PI $75,000, Disease effects on Yellowstone Wolves.
-+ USFWS, PI$45,000, Elk space-use of the National Elk Refuge.
-+ Morris Animal Foundation, Co-PI $ 75,000.
-+ USGS Best Paper in Biology \hfill 2011
-+ USGS Grade Promotion
-+ NSF-NIH Ecology of Infectious Disease Program, co-PI $1,971,033, \hfill 2010
-+ USGS, PI $75,000, Park Oriented Biological Support Grant
-+ USGS, PI $39,000, Modeling environmental transmission of Chronic Wasting Disease\hfill 2009
-+ USGS, Co-PI $320,000, Global Climate Change Initiative \hfill 2008
-+ Co-PI $112,180, Wyoming Livestock-Wildlife Disease Initiative
-+ Co-PI $281,000, Wyoming Game and Fish Department: Tracking elk movements.
-+ USGS, Co-PI $750,000 with Mary Poss (Penn State): Viral tracking of mule deer and elk. \hfill 2007
-+ NPS, PI $10,000: Brucellosis in Yellowstone National Park \hfill 2006
-+ USGS, PI $210,000 for chronic wasting disease research. \hfill 2005
-+ NSF-NIH Ecology of Infectious Disease Grant. $1.8 million. Initiated, co-authored, and developed the research program with Dr. Wayne Getz.\hfill 1999
+USGS Performance Award (2018-2012,2010-2007)  
+USDA grant to Univ of Washington, $96,000 Livestock-wildlife disease modeling \hfill 2016  
+USGS Grade Promotion  
+MT FWP cooperative agreement $45,000 Cattle disease risk assessment. \hfill 2015  
+USGS, PI $ 133,000 Greater Yellowstone ecosystem disease research.  
+NIMBioS Workshop (Co-PI) ~$60,000 \hfill 2013  
+NSF Dissertation Improvement Grant (Co-PI) $19,343  
+USGS, PI $ 98,000 Greater Yellowstone ecosystem disease research  
+USGS Powell Center Grant, Co-PI (declined) \hfill 2012  
+USGS, PI $75,000, Disease effects on Yellowstone Wolves.  
+USFWS, PI$45,000, Elk space-use of the National Elk Refuge.  
+Morris Animal Foundation, Co-PI $ 75,000.  
+USGS Best Paper in Biology \hfill 2011  
+USGS Grade Promotion   
+NSF-NIH Ecology of Infectious Disease Program, co-PI $1,971,033, \hfill 2010  
+USGS, PI $75,000, Park Oriented Biological Support Grant  
+USGS, PI $39,000, Modeling environmental transmission of Chronic Wasting Disease\hfill 2009  
+USGS, Co-PI $320,000, Global Climate Change Initiative \hfill 2008  
+Co-PI $112,180, Wyoming Livestock-Wildlife Disease Initiative  
+Co-PI $281,000, Wyoming Game and Fish Department: Tracking elk movements.  
+USGS, Co-PI $750,000 with Mary Poss (Penn State): Viral tracking of mule deer and elk. \hfill 2007  
+NPS, PI $10,000: Brucellosis in Yellowstone National Park \hfill 2006  
+USGS, PI $210,000 for chronic wasting disease research. \hfill 2005  
+NSF-NIH Ecology of Infectious Disease Grant. $1.8 million. Initiated, co-authored, and developed the research program with Dr. Wayne Getz.\hfill 1999  
 
 # Invited Presentations
 
-+ Glasgow University Ecology Seminar, Glasgow, UK. \hfill 2017
-+ University of California at Berkeley, Wildlife Seminar
-+ Plenary, 12th Western States and Provinces Deer and Elk Workshop. Sun Valley, ID.
-+ Center for Infectious Disease Dynamics, Penn State University.
-+ Utah State University Ecology Seminar. Logan, UT \hfill 2016
-+ UCLA Ecology Seminar, Los Angeles, CA.
-+ Patuxent USGS Seminar.
-+ Georgetown Ecology Seminar, Washington, D.C.
-+ 50th Anniv. Mammal Research Institute, South Africa
-+ K-5 science and technology night, Bozeman MT.
-+ MT Conservation Biology Evening Lecture, Bozeman MT \hfill 2015
-+ The National Academy of Sciences, Washington DC
-+ Wildlife Society Meeting, Winnepeg, Canada  \hfill 2014
-+ Ecology Seminar, University of Sherbrooke, Canada
-+ NIH Rocky Mountain Lab, Hamilton MT
-+ 18th Congreso Chileno de Medicina Veterinaria, Santiago, Chile
-+ Dept. Seminar, Univ. Catolica, Valdivia, Chile
-+ Public Talk, Emerging wildlife pandemics, Menlo Park, CA
-+ Steering Committee & Speaker. Foreign Animal Disease, Shepardstown WV \hfill 2013
-+ Interagency Bison Management Plan Meeting. Chico MT
-+ European Conservation Biology Meeting, Glasgow UK \hfill 2012
-+ Wildlife disease management workshop, Penn State Univ. \hfill 2011
-+ Ecology and Evolution of Infectious Disease Meeting, Santa Barbara.
-+ Invited Participant, RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.
-+ Invited Keynote, Berryman Institute Biennial Meeting, Logan UT. \hfill 2010
-+ Invited Participant, RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.
-+ Kopriva Lecture [Invited] MSU College of Arts and Science, Bozeman, MT \hfill 2009
-+ Dept. Seminar, Colorado State University, Fort Collins, CO
-+ 10th Biennial Conference of Research on the Colorado Plateau Speaker, ESA, 
+Glasgow University Ecology Seminar, Glasgow, UK. \hfill 2017  
+University of California at Berkeley, Wildlife Seminar  
+Plenary, 12th Western States and Provinces Deer and Elk Workshop. Sun Valley, ID.  
+Center for Infectious Disease Dynamics, Penn State University.  
+Utah State University Ecology Seminar. Logan, UT \hfill 2016  
+UCLA Ecology Seminar, Los Angeles, CA.  
+Patuxent USGS Seminar.   
+Georgetown Ecology Seminar, Washington, D.C.  
+50th Anniv. Mammal Research Institute, South Africa  
+K-5 science and technology night, Bozeman MT.  
+MT Conservation Biology Evening Lecture, Bozeman MT \hfill 2015  
+The National Academy of Sciences, Washington DC  
+Wildlife Society Meeting, Winnepeg, Canada  \hfill 2014  
+Ecology Seminar, University of Sherbrooke, Canada  
+NIH Rocky Mountain Lab, Hamilton MT  
+18th Congreso Chileno de Medicina Veterinaria, Santiago, Chile  
+Dept. Seminar, Univ. Catolica, Valdivia, Chile  
+Public Talk, Emerging wildlife pandemics, Menlo Park, CA  
+Steering Committee & Speaker. Foreign Animal Disease, Shepardstown WV \hfill 2013  
+Interagency Bison Management Plan Meeting. Chico MT  
+European Conservation Biology Meeting, Glasgow UK \hfill 2012  
+Wildlife disease management workshop, Penn State Univ. \hfill 2011  
+Ecology and Evolution of Infectious Disease Meeting, Santa Barbara.  
+Invited Participant, RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.  
+Invited Keynote, Berryman Institute Biennial Meeting, Logan UT. \hfill 2010  
+Invited Participant, RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.  
+Kopriva Lecture [Invited] MSU College of Arts and Science, Bozeman, MT \hfill 2009  
+Dept. Seminar, Colorado State University, Fort Collins, CO  
+10th Biennial Conference of Research on the Colorado Plateau Speaker, ESA,   
 
 # Service
 
-+ Associate Editor, Ecological Applications \hfill ongoing
-+ Northern Yellowstone Cooperative Wildlife Working Group.
-+ Chair, USGS Animal Use and Care Committee for NOROCK.
-+ Reviewer of the USDA Cattle Fever Tick Eradication Program. \hfill 2018-2019
-+ Associate Editor, Journal of Wildlife Management \hfill 2015-2017
-+ National Academy of Science Panel Member: Revisiting Brucellosis in the GYE
-+ Dept. Homeland Security IPT for outbreak response and assessment tools. \hfill 2016
-+ Red Wolf Recovery Implementation Team, USFWS.  \hfill 2014
-+ Participant, Wildlife Conservation Society Wildlife Health Program, Internal Strategic Workshop for future research.
-+ Steering Committee, Group Leader & Speaker. Foreign Animal Disease National Preparedness Workshop. USGS/DHS/USDA/CDC. \hfill 2013
-+ Member Environmental Health Strategic Science Planning Team \hfill 2011
-+ Co-coordinator & originator, NIH & DHS RAPIDD Working group on cross-species transmission. 15 participants
-+ Participant, NIH & DHS RAPIDD Working group on movement and mosquito-borne diseases.
-+ USGS representative. Northern Rockies NEON committee.
-+ Organizer, Greater Yellowstone Brucellosis Research Meeting (2 days), 60 participants, 27 speakers, Bozeman MT \hfill 2009
-+ Participant, Dept. of Interior Avian Influenza Preparedness workshop, Madison WI
-+ Participant, Yellowstone National Park Science Agenda Workshop, Bozeman MT
-+ Steering Committee, Yellowstone National Park Wildlife Health Program Meeting. \hfill 2007
-+ Participant, USDA workshop: The Science of Surveillance, Control and Eradication of Catastrophic Diseases in Wildlife, Pinagree Park CO
-+ Participant, Disease and conservation of mammals, Conservation International \hfill 2006
-+ USGS representative. Greater Yellowstone Interagency Brucellosis Committee \hfill 2005-8
+Associate Editor, Ecological Applications \hfill ongoing  
+Northern Yellowstone Cooperative Wildlife Working Group.  
+Chair, USGS Animal Use and Care Committee for NOROCK.  
+Reviewer of the USDA Cattle Fever Tick Eradication Program. \hfill 2018-2019  
+Associate Editor, Journal of Wildlife Management \hfill 2015-2017  
+National Academy of Science Panel Member: Revisiting Brucellosis in the GYE  
+Dept. Homeland Security IPT for outbreak response and assessment tools. \hfill 2016  
+Red Wolf Recovery Implementation Team, USFWS.  \hfill 2014  
+Participant, Wildlife Conservation Society Wildlife Health Program, Internal Strategic Workshop for future research.  
+Steering Committee, Group Leader & Speaker. Foreign Animal Disease National Preparedness Workshop.   USGS/DHS/USDA/CDC. \hfill 2013  
+Member Environmental Health Strategic Science Planning Team \hfill 2011  
+Co-coordinator & originator, NIH & DHS RAPIDD Working group on cross-species transmission. 15 participants  
+Participant, NIH & DHS RAPIDD Working group on movement and mosquito-borne diseases.  
+USGS representative. Northern Rockies NEON committee.  
+Organizer, Greater Yellowstone Brucellosis Research Meeting (2 days), 60 participants, 27 speakers, Bozeman MT \hfill 2009  
+Participant, Dept. of Interior Avian Influenza Preparedness workshop, Madison WI  
+Participant, Yellowstone National Park Science Agenda Workshop, Bozeman MT  
+Steering Committee, Yellowstone National Park Wildlife Health Program Meeting. \hfill 2007  
+Participant, USDA workshop: The Science of Surveillance, Control and Eradication of Catastrophic Diseases in Wildlife, Pinagree Park CO  
+Participant, Disease and conservation of mammals, Conservation International \hfill 2006  
+USGS representative. Greater Yellowstone Interagency Brucellosis Committee \hfill 2005-8  
  
 # Reviewer
 
-*Journals* (since 2004): Nature, Ecol App, J Anim Ecol, J App Ecol, Proc Roy Soc B, Phil Trans Roy Soc, Biol Letters, Cons Bio, Biol Cons, Anim Cons, Biodiv Cons, Behavior, Envi Cons, J Wildl Dis, Wildl Bio, PloS ONE, EcoHealth, J Theo Bio, SA J Wildl Res, Ann Zoo Fennici, Ecol Mod, USGS FSP, USGS Study Plans
+*Journals* (since 2004): Nature, Ecol App, J Anim Ecol, J App Ecol, Proc Roy Soc B, Phil Trans Roy Soc, Biol Letters, Cons Bio, Biol Cons, Anim Cons, Biodiv Cons, Behavior, Envi Cons, J Wildl Dis, Wildl Bio, PloS ONE, EcoHealth, J Theo Bio, SA J Wildl Res, Ann Zoo Fennici, Ecol Mod, USGS FSP, USGS Study Plans  
   
 *Funding Agencies*: National Science Foundation, Wildlife Conservation Society, Wellcome Trust, Biotechnology and Biological Sciences Research Council UK, Natural Environment Research Council UK, South African National Research Foundation, Alberta Prion Research Institute, National Institutes of Health
 
 # Press and Outreach
-+ [Naturally Speaking](https://naturallyspeaking.blog/2017/04/26/episode-51-natures-greatest-theatre-ecology-and-disease-in-yellowstone/) 2017
-+ [Bozeman Daily Chronicle](http://www.bozemandailychronicle.com/news/environment/report-elk-greater-brucellosis-transmission-risk-than-bison/article_8329c551-18a2-50a5-9352-f585935a7d99.html) 2016
-+ [The Economist](http://www.economist.com/news/science-and-technology/21652259-wolves-yellowstone-provide-some-surprising-survival-lessons-pack-power) 2015
-+ [NSF Science 360](https://science360.gov/obj/video/0f50aca7-2691-4126-996f-8ec5b74a9eb0/understanding-ecological-role-wolves-yellowstone-national-park) 2015
-+ The Wildlife Professional 2015
-+ New Zealand Herald 2013
-+ [Discovery Channel](http://store.discoveryeducation.com/product/show/129481): Curiosity X-Ray Yellowstone 2012
-+ [Wired Magazine](https://www.wired.com/2012/05/st_photo_wolves/) 2012
-+ [Science World Scholastic Magazine](http://scienceworld.scholastic.com/issues/09_17_12) 2012
-+ Yellowstone Wolf Citizen Science Webpage: <www.yellowstonewolf.org>
+[Naturally Speaking](https://naturallyspeaking.blog/2017/04/26/episode-51-natures-greatest-theatre-ecology-and-disease-in-yellowstone/) 2017  
+[Bozeman Daily Chronicle](http://www.bozemandailychronicle.com/news/environment/report-elk-greater-brucellosis-transmission-risk-than-bison/article_8329c551-18a2-50a5-9352-f585935a7d99.html) 2016  
+[The Economist](http://www.economist.com/news/science-and-technology/21652259-wolves-yellowstone-provide-some-surprising-survival-lessons-pack-power) 2015  
+[NSF Science 360](https://science360.gov/obj/video/0f50aca7-2691-4126-996f-8ec5b74a9eb0/understanding-ecological-role-wolves-yellowstone-national-park) 2015  
+The Wildlife Professional 2015  
+New Zealand Herald 2013  
+[Discovery Channel](http://store.discoveryeducation.com/product/show/129481): Curiosity X-Ray Yellowstone 2012  
+[Wired Magazine](https://www.wired.com/2012/05/st_photo_wolves/) 2012  
+[Science World Scholastic Magazine](http://scienceworld.scholastic.com/issues/09_17_12) 2012  
+Yellowstone Wolf Citizen Science Webpage: <www.yellowstonewolf.org>  
 
 # References
 
