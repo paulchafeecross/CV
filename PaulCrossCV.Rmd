@@ -1,19 +1,17 @@
 ---
-title: "CV"
-author: "Paul Chafee Cross"
+title: "Paul Chafee Cross"
+fontfamilyoptions: sc, osf
 output:
   pdf_document:
+    keep_tex: yes
     latex_engine: xelatex
-    keep_tex: true
-   # template: pcc-latex-cv.tex
   html_document:
     df_print: paged
   word_document: default
-fontfamily: mathpazo
-fontfamilyoptions: sc, osf
-fontsize: 12pt
 geometry: margin=1in
 linkcolor: blue
+fontsize: 12pt
+fontfamily: mathpazo
 urlcolor: blue
 ---
 
@@ -39,10 +37,10 @@ B.A., Environmental Science, University of Virginia, Charlottesville, VA \hfill 
 
 Wildlife Health Researcher, U.S. Geological Survey \hfill 2005-present  
 Faculty Affiliate, Montana State University \hfill 2006-present  
-Graduate Student Researcher, U.C. Berkeley \hfill 1999-2005
+Graduate Student Researcher, U.C. Berkeley \hfill 1999-2005  
 
-# Publications
-
+# Publications  
+  
 ```{r echo=FALSE, results="asis", message = FALSE, warning = FALSE, comment = FALSE}
 library(RefManageR)
 file_journals <- ReadBib("Cross_Pubs.bib", .Encoding = "UTF-8")
@@ -51,7 +49,7 @@ dates <- unlist(unique(file_journals$year))[order(unlist(unique(file_journals$ye
 #Prints references
 for (date in dates) {
   if(date == 2020) {
-    cat(paste0("## In review  ", sep = ""), "\n")
+    cat(paste("##", "In review", sep = " "), "\n")
     print(file_journals[list(year = date)],
           .opts = list(style = "markdown", 
                        bib.style = "authoryear",
@@ -108,7 +106,7 @@ Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buff
 
 ## Field Supervisor
 Manlove, K. 2017. Penn State University. Supervisor: PJ Hudson  
-Almberg, ES. 2015. The Invasion, Dynamics, and Impacts of Infectious Disease in Yellowstone's Wolf Population. Penn State University. Supervisor: PJ Hudson  
+Almberg, ES. 2015. Penn State University. Supervisor: PJ Hudson  
 Bowers, JA. 2006. Master's thesis: Feeding patch selection of African Buffalo (*Syncerus caffer* in the central region of the Kruger National Park.Tshwane University of Technology. South Africa  
 Tania Bird. 2004. Master's thesis: Influence of bovine tuberculosis (*Mycobacterium bovis*) on condition and reproductive success of females African buffalo (*Syncerus caffer*) in Kruger National Park. University of Pretoria. South Africa  
 Shane Abeare. 2004. Master's thesis: Dry season habitat and patch selection by African buffalo herds: test of a new home range estimator. University of Pretoria. South Africa  
@@ -210,7 +208,7 @@ USGS representative. Greater Yellowstone Interagency Brucellosis Committee \hfil
  
 # Reviewer
 
-*Journals* (since 2004): Nature, Ecol App, J Anim Ecol, J App Ecol, Proc Roy Soc B, Phil Trans Roy Soc, Biol Letters, Cons Bio, Biol Cons, Anim Cons, Biodiv Cons, Behavior, Envi Cons, J Wildl Dis, Wildl Bio, PloS ONE, EcoHealth, J Theo Bio, SA J Wildl Res, Ann Zoo Fennici, Ecol Mod, USGS FSP, USGS Study Plans  
+*Journals* (since 2004): Nature, Ecology, Ecol App, J Anim Ecol, J App Ecol, Proc Roy Soc B, Phil Trans Roy Soc, Biol Letters, Cons Bio, Biol Cons, Anim Cons, Biodiv Cons, Behavior, Envi Cons, J Wildl Dis, Wildl Bio, PloS ONE, EcoHealth, J Theo Bio, SA J Wildl Res, Ann Zoo Fennici, Ecol Mod
   
 *Funding Agencies*: National Science Foundation, Wildlife Conservation Society, Wellcome Trust, Biotechnology and Biological Sciences Research Council UK, Natural Environment Research Council UK, South African National Research Foundation, Alberta Prion Research Institute, National Institutes of Health
 
