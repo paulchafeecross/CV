@@ -97,13 +97,15 @@ Gorsich EE, Ezenwa VO, Cross PC, Bengis RG, Jolles AE (2015) Data from: Context-
 
 # Students
 
-Gavin Cotterill. In progress. Managing disease in the supplemental feeding grounds of Wyoming. Utah State University. Co-supervisor: JT Du Toit  
-Ellen Brandell. In progress. Disease impacts on wolves in Yellowstone National Park. Penn State University. Co-supervisor: PJ Hudson  
-Angela Brennan. 2014. Broad-scale determinants of elk aggregation and brucellosis seroprevalence. Montana State University. Co-supervisor: S Creel.  
-Tyler Creech. 2011. Heterogeneity in the fine-scale contact patterns of elk as determined by proximity collars. Montana State University. Co-supervisor: S Creel  
-Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The Effects of Supplemental Feeding on Stress Hormone Levels in Elk. Montana State University. Co-supervisors: M Taper, S Creel  
-Craig Hay. 2006 Choice of Social environment of male buffalo (*Syncerus caffer*) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: P Funston  
-Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buffalo (*Syncerus caffer*) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa.   Co-supervisor: E Cameron   
+Gavin Cotterill In progress. Managing disease in the supplemental feeding grounds of Wyoming. Utah State University. Co-supervisor: JT Du Toit  
+Ellen Brandell In progress. Disease impacts on wolves in Yellowstone National Park. Penn State University. Co-supervisor: PJ Hudson  
+Angela Brennan 2014. Broad-scale determinants of elk aggregation and brucellosis seroprevalence. Montana State University. Co-supervisor: S Creel.  
+Kezia Manlove 2017. Bighorn sheep pnuemonia. Penn State University. Co-supervisor: PJ Hudson  
+Emily Almberg 2015. Disease in Yellowstone Wolves. Penn State University. Co-supervisor: P. Hudson.  
+Tyler Creech 2011. Fine-scale contact patterns of elk as determined by proximity collars. Montana State University. Co-supervisor: S Creel  
+Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The effects of supplemental feeding on stress hormone levels in elk. Montana State University. Co-supervisors: M Taper, S Creel  
+Craig Hay 2006 Choice of social environment of male buffalo (*Syncerus caffer*) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: P Funston  
+Chris Oosthuizen 2006. Honour's thesis: Chemical immobilization of African buffalo (*Syncerus caffer*) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa.   Co-supervisor: E Cameron   
 
 
 ## Post-docs  
@@ -117,8 +119,6 @@ Aaron Foley. 2014-2015 USGS and Montana State University. Elk migration and cow-
 Pauline Kamath. 2011-2015. USGS. Population genetics and wildlife disease.  
 
 ## Field Supervisor
-Manlove, K. 2017. Penn State University. Supervisor: PJ Hudson  
-Almberg, ES. 2015. Penn State University. Supervisor: PJ Hudson  
 Bowers, JA. 2006. Master's thesis: Feeding patch selection of African Buffalo (*Syncerus caffer* in the central region of the Kruger National Park.Tshwane University of Technology. South Africa  
 Tania Bird. 2004. Master's thesis: Influence of bovine tuberculosis (*Mycobacterium bovis*) on condition and reproductive success of females African buffalo (*Syncerus caffer*) in Kruger National Park. University of Pretoria. South Africa  
 Shane Abeare. 2004. Master's thesis: Dry season habitat and patch selection by African buffalo herds: test of a new home range estimator. University of Pretoria. South Africa  
