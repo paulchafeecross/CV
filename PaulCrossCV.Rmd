@@ -20,7 +20,8 @@ urlcolor: blue
  Wildlife Researcher, Terrestrial Ecology Branch Chief,  
 Northern Rocky Mountain Science Center, U.S. Geological Survey  
 2327 University Way, Suite 2, Bozeman, MT 59715  
-[www.usgs.gov/staff-profiles/paul-cross](http://www.usgs.gov/staff-profiles/paul-cross), [orcid: 0000-0001-8045-5213](http://orcid.org/0000-0001-8045-5213)  
+[www.usgs.gov/staff-profiles/paul-cross](http://www.usgs.gov/staff-profiles/paul-cross),  
+[orcid: 0000-0001-8045-5213](http://orcid.org/0000-0001-8045-5213)  
 email: pcross@usgs.gov  
 cellphone: 406-581-1763  
 Updated: `r format(Sys.time(), '%B %d, %Y')`  
@@ -104,6 +105,17 @@ Victoria Forristal (formerly Patrek). 2009. Masters. Fat but not happy: The Effe
 Craig Hay. 2006 Choice of Social environment of male buffalo (*Syncerus caffer*) in the Kruger National Park, South Africa. Tshwane University of Technology. South Africa. Co-supervisor: P Funston  
 Chris Oosthuizen. 2006. Honour's thesis: Chemical immobilization of African buffalo (*Syncerus caffer*) in Kruger National Park: Evaluating effects on survival and reproduction. University of Pretoria. South Africa.   Co-supervisor: E Cameron   
 
+
+## Post-docs  
+
+Alynn Martin. 2019-present. USGS. Brucellosis and bighorn sheep disease.  
+Nathaniel Rayl. 2016-2018. USGS. Montana livestock risk assessments.  
+Kezia Manlove. 2016-2018. Washington State University. Bighorn sheep pneumonia. Co-supervisor: Tom Besser. USDA funding.  
+Angela Brennan. 2015-2016. Montana State University. Livestock-wildlife risk assessments. USDA funding.  
+Julio Benavides. 2014-2015. Montana State University. Epidemiology of elk brucellosis. Co-supervisor: Scott Creel.   
+Aaron Foley. 2014-2015 USGS and Montana State University. Elk migration and cow-calf ratios in western Wyoming. Co-supervisor: Scott Creel. Partially funded by the U.S. Fish and Wildlife Service.  
+Pauline Kamath. 2011-2015. USGS. Population genetics and wildlife disease.  
+
 ## Field Supervisor
 Manlove, K. 2017. Penn State University. Supervisor: PJ Hudson  
 Almberg, ES. 2015. Penn State University. Supervisor: PJ Hudson  
@@ -126,10 +138,13 @@ Modeling Infectious Disease (1 week short-course) 2001. Univ. of Witwatersrand, 
 # Grants/Awards 
 
 USGS Performance Award (2018-2012,2010-2007)  
-USDA grant to Univ of Washington, $96,000 Livestock-wildlife disease modeling \hfill 2016  
-USGS Grade Promotion  
-MT FWP cooperative agreement $45,000 Cattle disease risk assessment. \hfill 2015  
-USGS, PI $ 133,000 Greater Yellowstone ecosystem disease research.  
+USGS Cyclical $30,000 Chronic wasting disease \hfill 2018  
+USGS Environmental Health Mission Area $120,000 Chronic wasting disease  
+NSF GRIP Supervisor: Fusobacterium and the elk microbiome    
+USDA grant to Univ of Washington, PI. $96,000 Livestock-wildlife disease modeling \hfill 2016  
+USGS Grade Promotion to GS-15    
+MT Fish Wildlife and Parks: $90,000 Brucellosis risk assessment \hfill 2015  
+USGS $133,000 Greater Yellowstone ecosystem disease research.  
 NIMBioS Workshop (Co-PI) ~$60,000 \hfill 2013  
 NSF Dissertation Improvement Grant (Co-PI) $19,343  
 USGS, PI $ 98,000 Greater Yellowstone ecosystem disease research  
@@ -152,42 +167,52 @@ NSF-NIH Ecology of Infectious Disease Grant. $1.8 million. Initiated, co-authore
 
 # Invited Presentations
 
+Greater Yellowstone Coordinating Committee. CWD review. \hfill 2019  
+MSU Institute on Ecosystems Seminar. \hfill 2018  
+SERDP workshop on emerging infectious disease. Emigrant, MT.   
+Brucellosis review for state wildlife and livestock agency partners. Bozeman, MT.  
+Plenary: International Deer Congress, Estes Park, CO.  
+Invited Panelist. Linking science and management. GYE Biennial Meeting, Big Sky MT.  
+Virginia Tech workshop on mange.    
+Univ. of Minnesota Veterinary Medicine Seminar.  
 Glasgow University Ecology Seminar, Glasgow, UK. \hfill 2017  
+Chile, Universidad Andres Bello, Santiago.  
 University of California at Berkeley, Wildlife Seminar  
 Plenary, 12th Western States and Provinces Deer and Elk Workshop. Sun Valley, ID.  
-Center for Infectious Disease Dynamics, Penn State University.  
+Penn State University, Center for Infectious Disease Dynamics Seminar.  
+USDA/APHIS Briefing on the National Academy of Sciences Report.  
 Utah State University Ecology Seminar. Logan, UT \hfill 2016  
 UCLA Ecology Seminar, Los Angeles, CA.  
 Patuxent USGS Seminar.   
 Georgetown Ecology Seminar, Washington, D.C.  
-50th Anniv. Mammal Research Institute, South Africa  
+South Africa, 50th Anniv. Mammal Research Institute, South Africa  
 K-5 science and technology night, Bozeman MT.  
 MT Conservation Biology Evening Lecture, Bozeman MT \hfill 2015  
 The National Academy of Sciences, Washington DC  
 Wildlife Society Meeting, Winnepeg, Canada  \hfill 2014  
-Ecology Seminar, University of Sherbrooke, Canada  
+University of Sherbrooke Ecology Seminar, Canada  
 NIH Rocky Mountain Lab, Hamilton MT  
-18th Congreso Chileno de Medicina Veterinaria, Santiago, Chile  
-Dept. Seminar, Univ. Catolica, Valdivia, Chile  
+Chile, 18th Congreso Chileno de Medicina Veterinaria  
+Chile, Univ. Catolica, Dept. Seminar  
 Public Talk, Emerging wildlife pandemics, Menlo Park, CA  
 Steering Committee & Speaker. Foreign Animal Disease, Shepardstown WV \hfill 2013  
 Interagency Bison Management Plan Meeting. Chico MT  
 European Conservation Biology Meeting, Glasgow UK \hfill 2012  
 Wildlife disease management workshop, Penn State Univ. \hfill 2011  
 Ecology and Evolution of Infectious Disease Meeting, Santa Barbara.  
-Invited Participant, RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.  
-Invited Keynote, Berryman Institute Biennial Meeting, Logan UT. \hfill 2010  
-Invited Participant, RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.  
-Kopriva Lecture [Invited] MSU College of Arts and Science, Bozeman, MT \hfill 2009  
-Dept. Seminar, Colorado State University, Fort Collins, CO  
+RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.  
+Keynote: Berryman Institute Biennial Meeting, Logan UT. \hfill 2010  
+RAPPID-NIH Movement and Mosquito-Transmitted Diseases Meeting, Washington D.C.  
+Kopriva Lecture: MSU College of Arts and Science, Bozeman, MT \hfill 2009  
+Colorado State University, Dept. Seminar, Fort Collins, CO  
 10th Biennial Conference of Research on the Colorado Plateau Speaker, ESA,   
 
 # Service
 
 Associate Editor, Ecological Applications \hfill ongoing  
-Northern Yellowstone Cooperative Wildlife Working Group.  
 Chair, USGS Animal Use and Care Committee for NOROCK.  
-Reviewer of the USDA Cattle Fever Tick Eradication Program. \hfill 2018-2019  
+Northern Yellowstone Cooperative Wildlife Working Group.  
+External Review of USDA Cattle Fever Tick Eradication Program. \hfill 2018-2019  
 Associate Editor, Journal of Wildlife Management \hfill 2015-2017  
 National Academy of Science Panel Member: Revisiting Brucellosis in the GYE  
 Dept. Homeland Security IPT for outbreak response and assessment tools. \hfill 2016  
@@ -212,25 +237,43 @@ USGS representative. Greater Yellowstone Interagency Brucellosis Committee \hfil
   
 *Funding Agencies*: National Science Foundation, Wildlife Conservation Society, Wellcome Trust, Biotechnology and Biological Sciences Research Council UK, Natural Environment Research Council UK, South African National Research Foundation, Alberta Prion Research Institute, National Institutes of Health
 
-# Press and Outreach
-[Naturally Speaking](https://naturallyspeaking.blog/2017/04/26/episode-51-natures-greatest-theatre-ecology-and-disease-in-yellowstone/) 2017  
-[Bozeman Daily Chronicle](http://www.bozemandailychronicle.com/news/environment/report-elk-greater-brucellosis-transmission-risk-than-bison/article_8329c551-18a2-50a5-9352-f585935a7d99.html) 2016  
-[The Economist](http://www.economist.com/news/science-and-technology/21652259-wolves-yellowstone-provide-some-surprising-survival-lessons-pack-power) 2015  
-[NSF Science 360](https://science360.gov/obj/video/0f50aca7-2691-4126-996f-8ec5b74a9eb0/understanding-ecological-role-wolves-yellowstone-national-park) 2015  
-The Wildlife Professional 2015  
-New Zealand Herald 2013  
-[Discovery Channel](http://store.discoveryeducation.com/product/show/129481): Curiosity X-Ray Yellowstone 2012  
-[Wired Magazine](https://www.wired.com/2012/05/st_photo_wolves/) 2012  
-[Science World Scholastic Magazine](http://scienceworld.scholastic.com/issues/09_17_12) 2012  
-Yellowstone Wolf Citizen Science Webpage: <www.yellowstonewolf.org>  
+# Press and Outreach  
+[Naturally Speaking](https://naturallyspeaking.blog/2017/04/26/episode-51-natures-greatest-theatre-ecology-and-disease-in-yellowstone/) Podcast \hfill 2017   
+[Bozeman Daily Chronicle](http://www.bozemandailychronicle.com/news/environment/report-elk-greater-brucellosis-transmission-risk-than-bison/article_8329c551-18a2-50a5-9352-f585935a7d99.html).  National Academy of Sciences Brucellosis Report.  \hfill 2016  
+[Missoulian](https://missoulian.com/news/state-and-regional/disease-s-spread-blamed-on-elk-not-bison-or-feed/article_379e198f-190b-562a-bd6d-950fbed46f71.html)
+[Billings Gazette](https://billingsgazette.com/lifestyles/recreation/mange-changes-yellowstone-wolves-hunting-travel-and-food-needs/article_f876b43f-3e46-5d78-b6e5-ed5e8ddddbdb.html) Mange in Yellowstone  
+[The Economist](http://www.economist.com/news/science-and-technology/21652259-wolves-yellowstone-provide-some-surprising-survival-lessons-pack-power) Yellowstone Mange \hfill 2015    
+[Montana PBS](https://vimeo.com/104296498) Silencing the Thunder Brucellosis Documentary \hfill 2014  
+[NSF Science 360](https://science360.gov/obj/video/0f50aca7-2691-4126-996f-8ec5b74a9eb0/understanding-ecological-role-wolves-yellowstone-national-park) Yellowstone Mange.   
+[Discovery Channel](http://store.discoveryeducation.com/product/show/129481): Curiosity X-Ray Yellowstone \hfill 2012    
+[Wired Magazine](https://www.wired.com/2012/05/st_photo_wolves/) Thermal imagery of Yellowstone Wolves      
+[Science World Scholastic Magazine](http://scienceworld.scholastic.com/issues/09_17_12) K-12 Education on Yellowstone Wolves    
+[Yellowstone Wolf Citizen Science Webpage](http://www.yellowstonewolf.org)  
 
 # References
 
-Dr. Claudia Regan, Center Director, Northern Rocky Mountain Science Center, USGS, 2327 University Way, Suite 2, Bozeman MT 59715.  
+Dr. Claudia Regan: Center Director and Direct Supervisor.  
+Northern Rocky Mountain Science Center, USGS, 2327 University Way, Suite 2, Bozeman MT 59715.  
 Phone: (406) 994-7972 Email: cregan@usgs.gov   
 
-Mr. Brandon Scurlock, Brucellosis-Feedground-Habitat Supervisor, Wyoming Game and Fish Department, Pinedale Office, PO Box 850, Pinedale, WY 82941.  
-Phone: (307) 367-4347ext224	Email: bscurlock@wyo.gov  
+Mr. Brandon Scurlock: Collaborator.    
+Wildlife Management Coordinator, Wyoming Game and Fish Department, Pinedale Office, PO Box 850, Pinedale, WY 82941.  
+Phone: (307) 367-4353	Email: bscurlock@wyo.gov
 
-Dr. Doug W. Smith, Yellowstone Center for Resources, Wolf Project, Yellowstone National Park, WY  82190  
+Dr. Doug W. Smith: Collaborator.  
+Yellowstone Center for Resources, Wolf Project, Yellowstone National Park, WY  82190  
 Phone: (307) 344-2242	Email: doug_smith@nps.gov  
+
+Dr. Johan du Toit, Collaborator and previous advisor, 
+Utah State University, NR 206
+Phone: (435) 797-2837 Email: johan.dutoit@usu.edu
+
+For the Rocky Crate Chair faculty position, the two references below are also appropriate: 
+
+Dr. Tom Besser: Collaborator    
+Rocky Crate Chair Professor, Washington State University  
+Phone: 208-310-6591 Email: tbesser@wsu.edu  
+
+Dr. Terry McElwain: Collaborator on National Academy Panel.  
+Regents Professor Emeritus, Washington State University, Pullman, WA 99164-7090  
+Email: tfm@wsu.edu
